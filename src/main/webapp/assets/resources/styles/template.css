@@ -28,5 +28,27 @@ main {
 .button-register{
     background-color: #15b6cc;
     background-color: #fc573b;
-
 }
+
+/*CADASTRO DE LIVROS*/
+h1{
+    font-family: "Roboto", serif;
+}
+label{
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+}
+.btn-back{
+    background-color: #6b6666;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+.btn-register{
+    color: white;
+    text-transform: uppercase;
+    background-color: #fc573b;
+    float: right;
+    margin-top: 2%;
+}
+/*CADASTRO DE LIVROS*/

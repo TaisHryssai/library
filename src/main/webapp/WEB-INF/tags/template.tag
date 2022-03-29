@@ -46,10 +46,10 @@
                                 Opções
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Cadastrar Livro</a>
-                                <a class="dropdown-item" href="#">Emprestar Livro</a>
+                                <a class="dropdown-item" href="register-book">Cadastrar Livro</a>
+                                <a class="dropdown-item" href="book-loan">Emprestar Livro</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Sair do Sistema</a>
+                                <a class="dropdown-item" href="/library">Sair do Sistema</a>
                             </div>
                         </li>
                     </ul>
