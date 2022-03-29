@@ -1,0 +1,70 @@
+.container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.card-bibliotech{
+    background-color: #ffe6e2;
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px #cccccc;
+    padding: 0% 10% 7%;
+}
+h3{
+    text-transform: uppercase;
+    font-family: "Roboto", serif;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2rem;
+}
+.img-home{
+    width: 30%;
+    margin-left: 35%;
+}
+
+.form{
+    padding: 0 25%;
+    width: 100%;
+}
+
+label{
+    text-transform: uppercase;
+    font-family: "Roboto", serif;
+    font-size: 0.9rem;
+}
+
+.btn-access{
+    float: right;
+    margin: 3% 0;
+    text-transform: uppercase;
+    background-color: #f66a83;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+}
+/*img{*/
+/*    width: 50%;*/
+/*    !*transform: rotate(27deg);*!*/
+/*    float: left;*/
+/*    text-align: left;*/
+/*    align-items: start;*/
+/*    padding: 13px 40px;*/
+/*    margin-top: 10%;*/
+/*}*/
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    /*background-color: black;*/
+    /*padding: 13px 40px;*/
+    /*margin: 70% 0;*/
+}
+
+.a{
+    display: inline-flex;
+    /*padding: 30% 0;*/
+}
+
+.access{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
