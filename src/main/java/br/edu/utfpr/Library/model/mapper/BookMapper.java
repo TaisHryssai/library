@@ -7,12 +7,12 @@ import br.edu.utfpr.Library.model.dto.UserDTO;
 
 public class BookMapper {
     public static Book toEntity(BookDTO dto){
-        Book entity = new Book(dto.getTitle(), dto.getPublishing_company(), dto.getYear(), dto.getSinopse());
+        Book entity = new Book(dto.getTitle(), dto.getPublishing_company(), dto.getYear(), dto.getSinopse(), dto.getQtd());
         return entity;
     }
 
     public static BookDTO toDTO(Book entity){
-        BookDTO dto = new BookDTO(entity.getTitle(), entity.getPublishing_company(), entity.getYear(), entity.getSinopse());
+        BookDTO dto = new BookDTO(entity.getTitle(), entity.getPublishing_company(), entity.getYear(), entity.getSinopse(), entity.getQtd());
         return dto;
     }
 }

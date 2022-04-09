@@ -13,26 +13,31 @@
 <t:template title="Cadastrar Livro">
     <jsp:body>
         <h1 class="mt-5">Cadastro de Livros</h1>
-        <form class="mt-5">
+        <form class="mt-5" action="register-book" method="post">
             <div class="row">
-                <div class="col-12 form-group">
+                <div class="col-6 form-group">
                     <label for="exampleInputEmail1">Titulo</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
 
                 <div class="col-6 form-group">
                     <label for="editora">Editora</label>
-                    <input type="text" class="form-control" id="editora">
+                    <input name="publishing_company" type="text" class="form-control" id="editora">
                 </div>
 
                 <div class="col-6 form-group">
                     <label for="ano">Ano</label>
-                    <input type="date" class="form-control" id="ano">
+                    <input name="year" type="date" class="form-control" id="ano">
+                </div>
+
+                <div class="col-6 form-group">
+                    <label for="qtd">Quantidade</label>
+                    <input name="qtd" type="number" class="form-control" id="qtd">
                 </div>
 
                 <div class="col-12 form-group">
                     <label for="sinopse">Sinopse</label>
-                    <textarea rows="6" class="form-control" id="sinopse" placeholder=""></textarea>
+                    <textarea name="sinopse" rows="6" class="form-control" id="sinopse" placeholder=""></textarea>
                 </div>
             </div>
 

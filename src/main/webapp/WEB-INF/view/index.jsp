@@ -12,7 +12,19 @@
 
 <t:template title="Biblioteca">
     <jsp:body>
+        <h3>Seja bem-vind@ ${user}</h3>
         <h1 class="text-center font-weight-bold mt-5">Lista de Livros</h1>
+        <c:if test="${empty books}">
+            Nao há livros cadastrados
+        </c:if>
 
+
+        <c:forEach var="address" items="${books}">
+            <p>${address}</p>
+            <p>${address.id}</p>
+            <p>${address.publishing_company}</p>
+            <p>${address.year}</p>
+            <p>${address.sinopse}</p>
+        </c:forEach>
     </jsp:body>
 </t:template>

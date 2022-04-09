@@ -23,12 +23,14 @@
             <h3>BIBLIOTECH</h3>
             <img class="img-fluid img-home" src="assets/resources/images/book3.png" alt="Card image cap">
                 <div class="form">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Digite seu Nome</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-
-                    <a href="lista" class="btn  btn-access">Acessar Biblioteca</a>
+                    <form method="post" action="library">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Digite seu Nome</label>
+                            <input name="user" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <button class="btn  btn-access">Acessar Biblioteca</button>
+                    </form>
+<%--                    <a href="lista" class="btn  btn-access">Acessar Biblioteca</a>--%>
                 </div>
 
         </div>

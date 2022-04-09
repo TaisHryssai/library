@@ -11,4 +11,6 @@ public class BookDTO {
     private String year;
     @NonNull
     private String sinopse;
+    @NonNull
+    private String qtd;
 }

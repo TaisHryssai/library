@@ -21,4 +21,6 @@ public class Book {
     private String year;
     @NonNull
     private String sinopse;
+    @NonNull
+    private String qtd;
 }

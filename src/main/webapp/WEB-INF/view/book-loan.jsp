@@ -13,21 +13,21 @@
 <t:template title="Empréstimo de Livro">
     <jsp:body>
         <h1 class="mt-5">Empréstimo de Livros</h1>
-        <form class="mt-5">
+        <form class="mt-5" method="post" action="book-loan">
             <div class="row">
                 <div class="col-12 form-group">
                     <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+                    <input name="name" type="text" class="form-control" id="nome" aria-describedby="emailHelp">
                 </div>
 
                 <div class="col-6 form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email">
+                    <input name="email" type="email" class="form-control" id="email">
                 </div>
 
                 <div class="col-6 form-group">
                     <label for="telefone">Telefone</label>
-                    <input type="text" class="form-control" id="telefone">
+                    <input name="phone" type="text" class="form-control" id="telefone">
                 </div>
 
                 <div class="col-6 form-group">
@@ -40,7 +40,7 @@
 
                 <div class="col-6 form-group">
                     <label for="data">Data do Empréstimo</label>
-                    <input type="date" class="form-control" id="data">
+                    <input name="date" type="date" class="form-control" id="data">
                 </div>
             </div>
 

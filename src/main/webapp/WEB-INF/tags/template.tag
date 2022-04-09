@@ -49,7 +49,10 @@
                                 <a class="dropdown-item" href="register-book">Cadastrar Livro</a>
                                 <a class="dropdown-item" href="book-loan">Emprestar Livro</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/library">Sair do Sistema</a>
+                                <form class="" action="logout" method="post">
+                                    <input class="btn dropdown-item" type="submit" value="Sair do Sistema">
+                                </form>
+<%--                                <a class="dropdown-item" href="/library">Sair do Sistema</a>--%>
                             </div>
                         </li>
                     </ul>
