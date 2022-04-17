@@ -22,5 +22,5 @@ public class Book {
     @NonNull
     private String sinopse;
     @NonNull
-    private String qtd;
+    private int qtd;
 }

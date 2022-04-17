@@ -24,7 +24,19 @@ main {
     margin: 0 0%;
     padding: 0;
 }
-
+.username{
+    margin: 6.5% 0;
+}
+.name_user{
+    font-family: "Roboto", serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.empty_books{
+    font-family: "Roboto", serif;
+}
 .button-register{
     background-color: #15b6cc;
     background-color: #fc573b;
@@ -52,3 +64,8 @@ label{
     margin-top: 2%;
 }
 /*CADASTRO DE LIVROS*/
+
+.table{
+    text-align: center;
+    text-transform: uppercase;
+}

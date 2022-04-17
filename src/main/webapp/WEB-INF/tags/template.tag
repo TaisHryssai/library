@@ -36,18 +36,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">BIBLIOTECH <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="lista">BIBLIOTECH <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <div class="form-inline">
                     <ul class="navbar-nav mr-lg-5">
+                        <li class="username">
+                            <h3 class="name_user"> Usuário ${username}</h3>
+                        </li>
+
                         <li class="nav-item dropdown options">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                 Opções
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="register-book">Cadastrar Livro</a>
-                                <a class="dropdown-item" href="book-loan">Emprestar Livro</a>
+                                <a class="dropdown-item" href="cadastrar-livro">Cadastrar Livro</a>
+                                <a class="dropdown-item" href="emprestar-livro">Emprestar Livro</a>
                                 <div class="dropdown-divider"></div>
                                 <form class="" action="logout" method="post">
                                     <input class="btn dropdown-item" type="submit" value="Sair do Sistema">

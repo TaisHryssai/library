@@ -25,4 +25,5 @@ public class User {
     @JoinColumn(name = "book_id")
     @NonNull
     private Book book;
+
 }

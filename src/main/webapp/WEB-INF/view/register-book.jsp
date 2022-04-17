@@ -13,7 +13,7 @@
 <t:template title="Cadastrar Livro">
     <jsp:body>
         <h1 class="mt-5">Cadastro de Livros</h1>
-        <form class="mt-5" action="register-book" method="post">
+        <form class="mt-5" action="cadastrar-livro" method="post">
             <div class="row">
                 <div class="col-6 form-group">
                     <label for="exampleInputEmail1">Titulo</label>

@@ -28,7 +28,7 @@
                             <label for="exampleInputEmail1">Digite seu Nome</label>
                             <input name="user" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
-                        <button class="btn  btn-access">Acessar Biblioteca</button>
+                        <button type="submit" class="btn  btn-access">Acessar Biblioteca</button>
                     </form>
 <%--                    <a href="lista" class="btn  btn-access">Acessar Biblioteca</a>--%>
                 </div>

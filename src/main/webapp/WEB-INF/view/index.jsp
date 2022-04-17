@@ -12,19 +12,40 @@
 
 <t:template title="Biblioteca">
     <jsp:body>
-        <h3>Seja bem-vind@ ${user}</h3>
+
+
         <h1 class="text-center font-weight-bold mt-5">Lista de Livros</h1>
         <c:if test="${empty books}">
-            Nao há livros cadastrados
+           <h3 class="empty_books"> Não há livros cadastrados </h3>
         </c:if>
 
+        <c:if test="${not empty book}">
+            <div class="table-responsive">
+                <table class="table" style="background-color: #d5e8e4">
+                    <thead class="thead-dark text-center">
+                    <tr>
+                        <th>titulo</th>
+                        <th>editora</th>
+                        <th>ano</th>
+                        <th>Livros em Estoque</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <c:if test="${not empty book}">
+                        <c:forEach var="book" items="${books}">
+                            <tr>
+                                <td>${book.title}</td>
+                                <td>${book.publishing_company}</td>
+                                <td> ${book.year}</td>
+                                <td>${book.qtd}</td>
+                            </tr>
+                        </c:forEach>
 
-        <c:forEach var="address" items="${books}">
-            <p>${address}</p>
-            <p>${address.id}</p>
-            <p>${address.publishing_company}</p>
-            <p>${address.year}</p>
-            <p>${address.sinopse}</p>
-        </c:forEach>
+                    </c:if>
+                    </tbody>
+                </table>
+            </div>
+        </c:if>
     </jsp:body>
 </t:template>
